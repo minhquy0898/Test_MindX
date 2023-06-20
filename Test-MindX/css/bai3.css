@@ -1,0 +1,137 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.d-flex {
+    display: flex;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background-color: #bfc8e6;
+}
+
+#content {
+    background-color: #fff;
+    width: 1142px;
+    border-radius: 8px;
+}
+
+#content .content--user {
+    padding-top: 26px;
+    margin-left: 58px;
+    margin-bottom: 14px;
+}
+
+.nav form input {
+    height: 40px;
+    outline: none;
+}
+
+.nav .search {
+    padding: 0px 30px;
+}
+
+.nav {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 60px;
+    padding-right: 60px;
+    margin-bottom: 40px;
+}
+
+.nav i {
+    position: absolute;
+    top: 12px;
+    left: 70px;
+}
+
+.list--item {
+    display: flex;
+}
+
+.list--item .item {
+    padding: 0px 20px;
+    list-style: none;
+}
+
+.list--item .item .item--link {
+    padding: 10px 10px;
+    text-decoration: none;
+    color: #000;
+}
+
+.list--item .item:hover .item--link {
+    background-color: #849fff;
+    border-radius: 8px;
+}
+
+/* ==================== Info ======================= */
+.content--info .list--info .item--info {
+    list-style: none;
+}
+
+.content--info img {
+    width: 80px;
+    height: 80px;
+}
+
+.content--info {
+    width: 33.3333%;
+    padding: 20px 50px 50px 20px;
+    background-color: #333;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.content--body {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 0px 60px;
+    margin-bottom: 20px;
+}
+
+.content--info {
+    display: flex;
+    width: 332px;
+    background-color: #fbfcff;
+    margin-bottom: 12px;
+    border-radius: 8px;
+}
+
+.content--info:hover {
+    box-shadow: 20px 10px 54px rgba(70, 62, 221, 0.1);
+}
+
+.interest .title {
+    margin-top: 18px;
+    margin-left: 12px;
+    font-weight: bold;
+}
+
+.interest .desc {
+    font-size: 14px;
+    margin-left: 12px;
+}
+
+.interest .characteristic {
+    border: 1px solid #bfc8e6;
+    border-radius: 8px;
+    font-size: 12px;
+    margin-left: 12px;
+    padding: 2px 6px;
+}
+
+.characteristic--p {
+    margin-top: 10px;
+}
+
+/* #BFC8E6
+ */
